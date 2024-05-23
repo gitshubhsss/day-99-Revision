@@ -1,0 +1,40 @@
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    line-height: 0.2rem;
+}
+h1{
+    font-size: 3rem;
+    color: green;
+}
+p{
+    font-size: 5rem;
+    color: rgb(212, 24, 56);
+}
+button{
+    cursor: pointer;
+}
+button{
+    padding: 0.5rem 0.5rem;
+    width: 6rem;
+    border: none;
+}
+#decrease{
+    background-color: rebeccapurple;
+    color: white;
+}
+#increase{
+    background-color: green;
+    color: white;
+}
+#reset{
+    background-color: antiquewhite;
+}
